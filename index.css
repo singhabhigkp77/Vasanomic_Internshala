@@ -1,0 +1,403 @@
+body{
+    position:relative;
+    width:100%;
+    height:100%;
+    overflow-x: hidden;
+  
+    }
+.super-container{
+    position: relative;
+    width:100%;
+    height:100%;
+  }
+
+@media all and (min-width:600px) 
+{
+   
+
+  .head{
+    position:relative;
+    height:7%;
+   z-index: 3;
+   top:0px;
+   width:100%;
+    background-color: #ffffff;
+    
+    
+  }
+  .logo{
+    position: relative;
+    width:20%;
+    height:auto;
+    left: 90px;
+    top: 0px;
+  }
+  .icon{
+    color: white;
+    position: relative;
+    font-size: 2.3em;
+    top: 12%;
+    margin-left: 28px;
+   
+  }
+  .nav-column{
+    padding-bottom: 1px;
+    padding-top:0px;
+    background-color: rgb(207, 57, 57);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 9% 100%);
+  }
+  .nav-content{
+    margin-left: 25px;
+    font-size: 12px;
+    color: white;
+    padding:7px;
+    cursor:pointer;
+    transition: all 0.3s;
+    
+  }
+
+  /* Second Row */
+  .second{
+    padding-top:20px;
+    background-color: #ffffff;
+    
+    border-bottom: ridge;
+    border-top: ridge;
+    border-color: rgb(241, 230, 230);
+    border-width: 0.2px;
+
+  }
+  .Make{
+    text-align: center;
+    padding-bottom: 8px;
+    font-size: 12px;
+    border: hidden;
+  }
+  /* THird row info*/
+  .maininfo{
+   
+      
+        margin-top: 1%;
+        font-size: 11px;
+        border:ridge;
+        border-color: rgb(230, 219, 219);
+        border-width: 1px;
+        
+  }
+
+  /* Main Page */
+  .main-page{
+    position:relative;
+    width: 100%;
+    height:50%;
+    margin-top:0%;
+    
+  }
+  .main{
+    
+    background-color: rgba(255, 255, 255, 0.9);
+    
+  }
+  .mainline{
+      margin-top: 4%;
+    border-bottom: ridge;
+    border-color: rgb(241, 230, 230);
+    border-width: 0.2px;
+  
+
+  }
+  .A-text{
+    font-size: 12px;
+    line-height: 30px;
+
+  }
+  .text{
+      margin-top: 1%;
+      font-size: 35px;
+    line-height: 0px;
+    
+  }
+  .B-text{
+    font-size: 20px;
+    
+  }
+  .vaso-text{
+      font-size: 13px;
+     
+  }
+  .Box{
+      line-height: 50px;
+      border-bottom: ridge;
+      border-color: rgb(241, 230, 230);
+      border-width: 0.2px;
+  }
+  .O-Box{
+    line-height: 20px;
+    border-bottom: ridge;
+    border-color: rgb(241, 230, 230);
+    border-width: 0.2px;
+  }
+  
+  .n-text{
+      color: rgb(160, 140, 140);
+      line-height : 0px;
+      font-size: 13px;
+  }
+  .style{
+      border-left: ridge;
+      border-color: rgb(78, 80, 82);
+      border-width: 1px; border-bottom: ridge;
+      border-color: rgb(241, 230, 230);
+      border-width: 0.2px;
+    
+  }
+  .click{
+      font-size: 14px;
+      border: ridge;
+      border-color: rgb(167, 149, 149);
+      border-width: 1px;
+      
+      text-align: center;
+  }
+  .click:hover{
+    background-color: rgb(17, 2, 147);
+    color: white;
+  }
+  .main-color{
+    color: red;
+  }
+
+  /* Info Page */
+  .info{
+    color: white;
+      margin-top: 2%;
+      font-size: 15px;
+      border:ridge;
+      border-color: rgb(218, 87, 87);
+      background-color: rgb(207, 57, 57);
+  }
+  /* Footer */
+  .footer{
+    margin-top: 1.5%;
+    padding: 5px;
+    background-color: rgb(13, 13, 71);
+  }
+  .ARR{
+      margin-left: 10%;
+      
+  }
+}
+/* mobile vesion .....................................To make responsive */
+@media all and (max-width:599px)
+{
+  .head{
+    position:relative;
+    height:7%;
+    z-index: 3;
+    top:0px;
+    width:100%;
+    background-color: #ffffff;
+    
+    
+  }
+  .head-block{
+    display: block;
+
+  }
+
+  .logo{
+    position: relative;
+    width:100%;
+    height:auto;
+    left: 15px;
+    top: 0px;
+    margin-top: 80px;
+  }
+  .icon{
+    color: white;
+    position: relative;
+    font-size: 1.3em;
+    top: 12%;
+    margin-left: 15px;
+   
+  }
+  .nav-column{
+    padding-bottom: 0px;
+    padding-top:0px;
+    background-color: rgb(207, 57, 57);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 9% 100%);
+  }
+  .nav-content{
+    margin-left: 8px;
+    font-size: 8px;
+    color: white;
+    padding:7px;
+    cursor:pointer;
+    transition: all 0.3s;
+    
+  }
+
+  /* Second Row */
+  .second{
+    position: relative;
+    padding-top:20px;
+    background-color: #ffffff;
+    display: block;
+    border-bottom: ridge;
+    border-top: ridge;
+    border-color: rgb(241, 230, 230);
+    border-width: 0.2px;
+    margin: auto;
+
+  }
+  .Make{
+    text-align: center;
+    padding-bottom: 8px;
+    font-size: 12px;
+    border: hidden;
+    
+  }
+  .Sec-Border{
+    border-bottom: ridge;
+    border-color: black;
+
+  }
+  /* THird row info*/
+  .maininfo{
+    position: relative;
+    margin-left: 40px;
+   
+      
+        margin-top: 6%;
+        font-size: 11px;
+        border:ridge;
+        border-color: rgb(230, 219, 219);
+        border-width: 1px;
+        
+  }
+
+  /* Main Page */
+  .main-page{
+    position:relative;
+    width: 100%;
+    height:50%;
+    margin-top:0%;
+    
+  }
+  .dispmain{
+    position: relative;
+    margin: auto;
+    display: block;
+  }
+  .main{
+    
+    background-color: rgba(255, 255, 255, 0.9);
+    
+  }
+  .mainline{
+    
+    
+    margin-top: 4%;
+    border-bottom: ridge;
+    border-color: rgb(109, 102, 102);
+    border-width: 0.2px;
+  
+
+  }
+  .A-text{
+    margin-top: 12px;
+    font-size: 7px;
+    line-height: 30px;
+
+  }
+  .text{
+      margin-top: 1%;
+      font-size: 23px;
+    line-height: 0px;
+    
+  }
+  .B-text{
+    font-size: 15px;
+    
+  }
+  .vaso-text{
+    position: relative;
+    margin: auto;
+      font-size: 10px;
+     
+  }
+  .Box{
+      line-height: 50px;
+      border-bottom: ridge;
+      border-color: rgb(241, 230, 230);
+      border-width: 0.2px;
+  }
+  .O-Box{
+    line-height: 20px;
+    border-bottom: ridge;
+    border-color: rgb(241, 230, 230);
+    border-width: 0.2px;
+  }
+  
+  .n-text{
+      color: rgb(160, 140, 140);
+      line-height : 12px;
+      font-size: 13px;
+  }
+  .style{
+      border-left: ridge;
+      border-color: rgb(78, 80, 82);
+      border-width: 1px; border-bottom: ridge;
+      border-color: rgb(241, 230, 230);
+      border-width: 0.2px;
+    
+  }
+  .click{
+      font-size: 12px;
+      border: ridge;
+      border-color: rgb(167, 149, 149);
+      border-width: 1px;
+      
+      text-align: center;
+  }
+  .click:hover{
+    background-color: rgb(17, 2, 147);
+    color: white;
+  }
+  .main-color{
+    color: red;
+  }
+
+  /* Info Page */
+  .info{
+    position: relative;
+    margin-left: 50px;
+    color: white;
+      margin-top: 8%;
+      font-size: 15px;
+      border:ridge;
+      border-color: rgb(218, 87, 87);
+      background-color: rgb(207, 57, 57);
+  }
+  .info-text{
+    position: relative;
+    
+    font-size: 10px;
+  }
+
+
+  /* Footer */
+  .footer{
+    margin-top: 8%;
+    padding: 5px;
+    background-color: rgb(13, 13, 71);
+  }
+  .ARR{
+    font-size: 10px;
+      margin-left: 30%;
+      
+  }
+  .footer-text{
+    font-size: 10px;
+  }
+} 
